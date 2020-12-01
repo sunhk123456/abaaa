@@ -1,0 +1,74 @@
+.dialogMask {
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.dialogPageWrapper {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialogPage {
+  position: relative;
+  min-height: 50px;
+  min-width: 100px;
+  background: white;
+  .dialogClose {
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .popupPage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    .header {
+      flex-grow: 0;
+      flex-shrink: 1;
+      //flex-basis: 50px;
+      width: 100%;
+      font-size: 16px;
+    }
+    .content {
+      flex-grow: 1;
+      flex-shrink: 1;
+      flex-basis: 50px;
+      width: 100%;
+    }
+    .footer {
+      flex-grow: 0;
+      flex-shrink: 1;
+      //flex-basis: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .buttonWrapper {
+        width: 100px;
+        height: 30px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

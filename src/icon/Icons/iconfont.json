@@ -1,0 +1,86 @@
+{
+  "id": "1920365",
+  "name": "customer-insight",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "客户洞察",
+  "glyphs": [
+    {
+      "icon_id": "8698622",
+      "name": "皇冠 王冠 会员 身份 等级 认证 面性",
+      "font_class": "huangguanwangguanhuiyuanshenfendengjirenzhengmianxing",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "509869",
+      "name": "放大镜",
+      "font_class": "icon161603",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "1046702",
+      "name": "联系人",
+      "font_class": "lianxiren-copy",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "7024405",
+      "name": "中国联通",
+      "font_class": "changyonglogo39",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "13533416",
+      "name": "方",
+      "font_class": "fang",
+      "unicode": "e9cb",
+      "unicode_decimal": 59851
+    },
+    {
+      "icon_id": "4520157",
+      "name": "标签",
+      "font_class": "biaoqian",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "3135539",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "13695697",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "4851066",
+      "name": "方向:下",
+      "font_class": "left",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "5057177",
+      "name": "验证码",
+      "font_class": "yanzhengma",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "13718146",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+*::after {
+  box-sizing: border-box;
+}
+*::before {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Microsoft YaHei', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+a {
+  text-decoration: none; //去掉下划线
+  color: inherit;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none;
+  border-bottom: none; //去掉下边框（用text-decoration: none;没有用是时候加上）；
+  display: block;
+}
+
+:global {
+  // antd 树组件 选中样式 默认红色
+  .ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected {
+    background: transparent;
+    color: #c91717;
+  }
+  .ant-tree .ant-tree-node-content-wrapper:hover {
+    background: transparent;
+    color: #c91717;
+  }
+  //  input框清除默认样式
+  .ant-input:hover {
+    border: 1px solid #d9d9d9;
+  }
+  .ant-input:focus {
+    border: 1px solid #d9d9d9;
+    box-shadow: none;
+  }
+  .ant-input {
+    transition: unset;
+  }
+
+  //  下拉框样式修改
+  .ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+    box-shadow: none;
+    border-color: #d9d9d9;
+  }
+  .ant-select-focused.ant-select-single:not(.ant-select-customize-input),
+  .ant-select-selector {
+    box-shadow: none;
+    border-color: #d9d9d9;
+    transition: unset;
+  }
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background-color: #c91717;
+    color: #ffffff;
+  }
+  .ant-select-multiple .ant-select-selector {
+    transition: unset;
+  }
+}
+//  表格
+.ant-table-container {
+  border: 1px solid #d7d7d7;
+}
+
+.ant-table-row:nth-child(even) {
+  background-color: #fafafa;
+  .ant-table-cell-fix-right {
+    background-color: #fafafa;
+  }
+  .ant-table-cell-fix-left {
+    background-color: #fafafa;
+  }
+}
+
+.ant-table-row:nth-child(odd) {
+  background-color: #f0f3f7;
+  .ant-table-cell-fix-right {
+    background-color: #f0f3f7;
+  }
+  .ant-table-cell-fix-left {
+    background-color: #f0f3f7;
+  }
+}
+
+.ant-table-content .ant-table-tbody > tr.ant-table-row-selected > td {
+  background-color: #ffe4de;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+.ant-form-item-explain > div {
+  display: none;
+}
